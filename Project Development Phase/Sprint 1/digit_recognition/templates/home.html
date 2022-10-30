@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="color:rgb(25, 25, 112)"><center>HANDWRITTEN DIGIT RECOGNITION SYSTEM</center></h1>
+        <style>
+        body {
+            background-color: rgb(6, 6, 62);
+            background-image: url(https://www.pngitem.com/pimgs/m/113-1130651_math-background-design-png-trust-in-numbers-transparent.png)
+             }
+       
+        
+        div{
+           
+            text-align: center;
+            
+        }
+        h1 {
+            color: azure;
+            text-align: left;
+        }
+
+        p {
+    
+            font-style: italic;
+            text-align: center;
+            text-indent: 30px;
+            font-size: 2em;
+            color: rgb(25, 25, 112);
+            
+         }
+
+
+        a:link{
+            color: rgb(25, 25, 112);
+            background-color: black;
+            padding: 14px 25px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        a:visited{
+            color: white;
+            background-color: rgb(25, 25, 112);
+            padding: 14px 25px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        a:hover{
+            background-color: rgb(201, 173, 173);
+            color:rgb(224, 208, 208);
+        }
+        a:active {
+            background-color: rgb(226, 183, 131);
+            color:white;
+        }
+        </style>
+        
+    </head>
+    <body>
+        
+        <p><strong>
+            Handwritten Text Recognition is a technology that is much needed  in this as of today. This digit Recognition system
+            is used to recognize the digits from different source like emails,bank cheque,papers,images.ex. Before proper
+            implementation of this technologywe have relied on writing texts with our own hands which can result in errors. It's 
+            difficult to store and access physical data with efficiency.The project presents recognizing the handwriting digits (0 to 9)
+            from the famous MNIST dataset. Here we will be using artificial neural networks/convolutional network.
+            </strong>
+        </p>
+        <div>
+        <a  href="{{ url_for('recognise') }}" target="_self">continue</a>
+       </div>
+    </body>
+</html>
+
