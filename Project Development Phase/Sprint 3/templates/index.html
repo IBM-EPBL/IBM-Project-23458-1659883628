@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    
+<meta charset="UTF-8">
+    <title>index page</title>
+    
+</head>
+<body>
+    <h1 class="heading">HANDWRITTEN DIGIT RECOGNITION SYSTEM</h1>
+    <div class="icon">
+       <p>Handwritten Text Recognition is a technology that is much needed  in this as of today. This digit Recognition system
+            is used to recognize the digits from different source like emails,bank cheque,papers,images.ex. Before proper
+            implementation of this technology we have relied on writing texts with our own hands which can result in errors. It's 
+            difficult to store and access physical data with efficiency.The project presents recognizing the handwriting digits (0 to 9)
+            from the famous MNIST dataset. Here we will be using artificial neural networks/convolutional network.
+</p>
+    
+    
+        <div class="btn">
+        <a  href="{{ url_for('recognise') }}" target="_self">continue</a>
+       </div>
+    </div>
+</body>
+</html>
